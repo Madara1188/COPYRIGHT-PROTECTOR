@@ -36,7 +36,7 @@ async def start_command_handler(_, msg):
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await msg.reply_photo(
-        photo="https://telegra.ph/file/8f6b2cc26b522a252b16a.jpg",
+        photo="https://telegra.ph/file/b9acfd0769d3b7303a224.jpg",
         caption=START_TEXT,
         reply_markup=reply_markup
     )
